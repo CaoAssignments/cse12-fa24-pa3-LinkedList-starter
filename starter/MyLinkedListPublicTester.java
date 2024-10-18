@@ -254,7 +254,7 @@ public class MyLinkedListPublicTester {
     public void testIndexOfElementExists() {
         this.populateLinkedList();
         assertEquals("Node with data 'Paul Cao' exists at index 1", 
-            threeStringList.indexOfElement("Paul Cao"), 1);
+            1, threeStringList.indexOfElement("Paul Cao"));
     }
 
     @Test
